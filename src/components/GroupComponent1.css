@@ -276,14 +276,18 @@
     margin-left: 35px;
   }
 }
-@media screen and (max-width: 450px) {
+@media (min-width:200px) and (max-width: 450px) {
   .dario-dd-k8tnrcwc-unsplash-cop-parent {
     padding: var(--padding-45xl) var(--padding-xl) var(--padding-16xl);
     box-sizing: border-box;
   }
   .lorem-ipsum-is
   {
-    position: absolute;
-    left: 50%;
+   margin-left: 60px;;
+    
   }
+  
+  
 }
+
+

@@ -38,14 +38,13 @@ const Desktop = () => {
         </div>
         <div className={`about-us-use ${showLinks ? 'show-links' : ''}`}>
           <a href="a.html" className="about-us-use1">About us</a>
-          <a href="a.html" className="about-us-use1">Use Cases</a>
-          <a href="a.html" className="about-us-use1">Events</a>
+          <a href="a.html" className="about-us-use2">Use Cases</a>
+          <a href="a.html" className="about-us-use3">Events</a>
+          <a href="a.html" className="about-us-use11">Web App</a>
+          <a href="a.html" className="about-us-use12">FAQ</a>
+          <a href="a.html" className="about-us-use13">Contact us</a>
         </div>
-        <div className={`web-app-faq ${showLinks ? 'show-links' : ''}`}>
-          <a href="a.html" className="about-us-use1">Web App</a>
-          <a href="a.html" className="about-us-use1">FAQ</a>
-          <a href="a.html" className="about-us-use1">Contact us</a>
-        </div>
+      
       </div>
       <div className="djfi-logo-main-copy-1" />
       <div className="mail" />

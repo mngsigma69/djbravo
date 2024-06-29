@@ -26,11 +26,9 @@ const GroupComponent1 = ({ className = "" }) => {
         <div className="lorem-ipsum-is-container">
           <p className="lorem-ipsum-is">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum is simply
+            industry. Lorem Ipsum is simply 
           </p>
-          <p className="dummy-text-of">
-            dummy text of the printing and typesetting industry.
-          </p>
+          
         </div>
       </div>
       <div className="testimonials-description">

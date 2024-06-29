@@ -18,6 +18,28 @@
  
 
 }
+.about-us-use11 {
+
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+ 
+  margin-left: 25px; 
+
+}
+.about-us-use12 {
+
+  color: rgb(205, 205, 205);
+  text-decoration: none;
+ 
+
+}
+.about-us-use13 {
+
+  color: rgb(205, 205, 205);
+  text-decoration: none;
+ 
+
+}
 .about-us-use1 {
 
   color: rgb(255, 255, 255);
@@ -30,16 +52,19 @@
 
   color: rgb(205, 205, 205);
   text-decoration: none;
- 
+ margin-left: 20px;
 
 }
 .about-us-use3 {
 
   color: rgb(205, 205, 205);
   text-decoration: none;
- 
+  margin-left: 20px;
 
 }
+
+
+
 .about-us-use,
 .header-navigation,
 .web-app-faq {
@@ -458,6 +483,14 @@
     padding-bottom: 59px;
     box-sizing: border-box;
   }
+  .eparrow-up-icon1
+  {
+    display: none;
+  }
+  .eparrow-up-icon
+  {
+    display: none;
+  }
 }
 @media screen and (max-width: 750px) {
   .works-content {
@@ -498,7 +531,24 @@
   }
 }
 
-
+.about-us-use11
+{
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+}
+.about-us-use12
+{
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+}
+.about-us-use13
+{
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+}
 
 
 
@@ -524,11 +574,211 @@
 }
 
 /* Show toggle button on smaller screens */
-@media screen and (max-width: 750px) {
+@media  (min-width: 501px) and (max-width: 799px) {
   .toggle-button {
     display: block;
     position: absolute;
-    top: 10px;
+    top: 40px;
+    right: 40px;
+    z-index: 10;
+    height: 20px;
+    width: 20px;
+    
+  }
+.eparrow-up-wrapper
+{
+  position: absolute;
+  left: 420px;
+}
+.question-dropdown-icon
+{
+  position: absolute;
+  left: 420px;
+}
+  
+  .web-app-faq {
+    display: none;
+    position: absolute;
+    top: 50px; /* Adjust as needed */
+    right: 0;
+    background-color: #435669; /* Change background color */
+    padding: 10px; /* Optional padding */
+    box-shadow: 0 0 10px rgba(141, 137, 137, 0.1); /* Optional box-shadow */
+    border: 1px solid #ccc; /* Optional border */
+    width: 200px; /* Optional width */
+    z-index: 5; /* Adjust z-index to ensure it appears above other content */
+  }
+  .about-us-use
+  {
+    display: none;
+    position: absolute;
+    top: 10%; /* Adjust as needed */
+    left:70%;
+    background-color: #274c70; /* Change background color */
+    padding: 10px; /* Optional padding */
+    box-shadow: 0 0 10px rgba(141, 137, 137, 0.1); /* Optional box-shadow */
+    border: 1px solid #ccc; /* Optional border */
+    width: 200px; /* Optional width */
+    z-index: 5; /* Adjust z-index to ensure it appears above other content */
+  }
+
+
+
+
+
+
+
+  .show-links {
+    display: block !important;
+  }
+
+  .about-us-use.show-links {
+    right: 200px; /* Adjust to align with toggle button */
+  }
+
+  .web-app-faq.show-links {
+    right: 0; /* Adjust to align with toggle button */
+  }
+
+  /* Adjust link styles */
+  .about-us-use1,
+  .about-us-use2,
+  .about-us-use3,
+  .about-us-use11,
+  .about-us-use12,
+  .about-us-use13{
+    display: block;
+    padding: 8px 15px;
+    color: #ffffff; /* Change link color */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .about-us-use1:hover,
+  .web-app-faq1:hover {
+    background-color: #8b9aa8; /* Change hover background color */
+  }
+}
+
+
+
+/* Styles for mobile devices */
+@media screen and  (max-width: 500px) {
+  /* Mobile specific styles */
+
+  .toggle-button {
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 10;
+    height: 20px;
+    width: 20px;
+    
+  }
+.eparrow-up-wrapper
+{
+  position: absolute;
+  left: 420px;
+}
+.question-dropdown-icon
+{
+  position: absolute;
+  left: 420px;
+}
+  
+  .web-app-faq {
+    display: none;
+    position: absolute;
+    top: 50px; /* Adjust as needed */
+    right: 0;
+    background-color: #475d73; /* Change background color */
+    padding: 10px; /* Optional padding */
+    box-shadow: 0 0 10px rgba(141, 137, 137, 0.1); /* Optional box-shadow */
+    border: 1px solid #ccc; /* Optional border */
+    width: 200px; /* Optional width */
+    z-index: 5; /* Adjust z-index to ensure it appears above other content */
+  }
+  .about-us-use
+  {
+    display: none;
+    position: absolute;
+    top: 10%; /* Adjust as needed */
+    left:55%;
+    background-color: #385572; /* Change background color */
+    padding: 10px; /* Optional padding */
+    box-shadow: 0 0 10px rgba(141, 137, 137, 0.1); /* Optional box-shadow */
+    border: 1px solid #ccc; /* Optional border */
+    width: 200px; /* Optional width */
+    z-index: 5; /* Adjust z-index to ensure it appears above other content */
+  }
+
+
+
+
+
+
+
+  .show-links {
+    display: block !important;
+  }
+
+  .about-us-use.show-links {
+    right: 200px; /* Adjust to align with toggle button */
+  }
+
+  .web-app-faq.show-links {
+    right: 0; /* Adjust to align with toggle button */
+  }
+
+  /* Adjust link styles */
+  .about-us-use1,
+  .about-us-use2,
+  .about-us-use3,
+  .about-us-use11,
+  .about-us-use12,
+  .about-us-use13{
+    display: block;
+    padding: 8px 15px;
+    color: #fcfcfc; /* Change link color */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .about-us-use1:hover,
+  .web-app-faq1:hover {
+    background-color: #8b9aa8; /* Change hover background color */
+  }
+  .eparrow-up-icon1
+  {
+    display: none;
+  }
+  .eparrow-up-icon
+  {
+    display: none;
+  }
+}
+
+/* Styles for tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Tablet specific styles */
+  .eparrow-up-icon1
+  {
+    display: none;
+  }
+  .eparrow-up-icon
+  {
+    display: none;
+  }
+}
+
+/* Styles for small laptops */
+@media (min-width: 800px) and (max-width: 1354px) {
+  /* Small laptop specific styles */
+  .toggle-button {
+    display: block;
+    position: absolute;
+    top: 40px;
     right: 40px;
     z-index: 10;
     height: 20px;
@@ -562,16 +812,16 @@
   {
     display: none;
     position: absolute;
-    top: 172px; /* Adjust as needed */
-    left: 283px;
-    background-color: #f8f9fa; /* Change background color */
+    top: 10%; /* Adjust as needed */
+    left:80%;
+    background-color: #305274; /* Change background color */
     padding: 10px; /* Optional padding */
     box-shadow: 0 0 10px rgba(141, 137, 137, 0.1); /* Optional box-shadow */
     border: 1px solid #ccc; /* Optional border */
     width: 200px; /* Optional width */
     z-index: 5; /* Adjust z-index to ensure it appears above other content */
+  color: white;
   }
-
 
 
 
@@ -593,10 +843,14 @@
 
   /* Adjust link styles */
   .about-us-use1,
-  .web-app-faq1 {
+  .about-us-use2,
+  .about-us-use3,
+  .about-us-use11,
+  .about-us-use12 ,
+  .about-us-use13{
     display: block;
     padding: 8px 15px;
-    color: #333; /* Change link color */
+    color: #ffffff; /* Change link color */
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
@@ -605,5 +859,12 @@
   .web-app-faq1:hover {
     background-color: #e9ecef; /* Change hover background color */
   }
+
+
+
 }
 
+/* Styles for desktops */
+@media (min-width: 1025px) {
+  /* Desktop specific styles */
+}

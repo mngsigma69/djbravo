@@ -129,11 +129,15 @@
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 1100px) {
+@media (min-width:915px) and (max-width: 1100px) {
   .web-apps {
     justify-content: center;
     grid-template-columns: repeat(2, minmax(247px, 429px));
   }
+  .mask-group-icon4
+  {
+     top:70%;
+   }
 }
 @media screen and (max-width: 750px) {
   .web-apps {
@@ -145,4 +149,11 @@
     padding-bottom: var(--padding-55xl);
     box-sizing: border-box;
   }
+}
+@media (min-width:1100px) and (max-width: 1350px)
+{
+   .mask-group-icon4
+   {
+      top:70%;
+    }
 }

@@ -102,3 +102,16 @@
   color: var(--color-white);
   font-family: var(--font-montserrat);
 }
+@media screen and  (max-width:480px){
+ .artists-can-curate
+ {
+  margin-bottom: 100px;
+  margin-top: -10px; 
+}
+ .playlist-wrapper
+ {
+  height: 320px;
+  
+ }
+}
+
