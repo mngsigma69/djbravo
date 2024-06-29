@@ -82,17 +82,28 @@
   color: var(--color-gold);
   font-family: var(--font-montserrat);
 }
-@media (min-width:1100px) and (max-width: 1350px)
+
+@media (min-width:901px) and (max-width: 5000px)
 {
-   .mask-group-icon3
-   {
-      top:70%;
-    }
+  .mask-group-icon3{
+    top: 200px;
+    height: 300px;
+    width: 300px;
+  }
 }
-@media (min-width:915px) and (max-width: 1080px)
+@media (min-width:1252px) and (max-width: 1404px)
 {
-   .mask-group-icon3
-   {
-      top:70%;
-    }
+  .mask-group-icon3{
+    top: 00px;
+    height: 300px;
+    width: 300px;
+  }
+}
+@media (min-width:1404px) and (max-width: 5000px)
+{
+  .mask-group-icon3{
+    top: 00px;
+    height: 300px;
+    width: 300px;
+  }
 }

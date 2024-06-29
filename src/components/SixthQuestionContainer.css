@@ -229,6 +229,17 @@
   color: var(--color-white);
   font-family: var(--font-montserrat);
 }
+@media (min-width:750px) and (max-width:1345px ){
+
+  .eparrow-up-icon
+  {
+   display: none;
+  }
+  .eparrow-up-icon1
+  {
+   display: none;
+  }
+}
 @media (min-width:451px) and (max-width: 750px) {
   .eigth-question,
   .seventh-question-container {
@@ -236,13 +247,11 @@
   }
   .eparrow-up-icon7
   {
-    position: absolute;
-    left: 410px;
+   display: none;
   }
   .eparrow-up-icon11
   {
-    position: absolute;
-    left: 410px;
+   display: none;
   }
   .eparrow-up-icon5
   {

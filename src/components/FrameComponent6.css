@@ -84,12 +84,7 @@
    
    .app-name-icon,
 .djfi-icon-1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 20%;
-  height: 20%;
-  z-index: 4;
+display: none;
   
 }
 }

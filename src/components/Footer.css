@@ -692,8 +692,13 @@ input.name1::placeholder {
   .rectangle-parent8 {
     gap: var(--gap-mini);
   }
-  .p
+  .rectangle-parent12
   {
-    
+     width: 200px;   
   }
+  .recaptcha-logo-container,.privacy-terms
+  {
+    margin-left: -25px;
+  }
+
 }

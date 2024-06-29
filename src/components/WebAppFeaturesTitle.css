@@ -123,3 +123,9 @@
     font-size: var(--font-size-lgi);
   }
 }
+@media (min-width:1270px) and (min-width:1388px){
+  .web-apps1
+  {
+    display: none;
+  }
+}

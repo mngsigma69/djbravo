@@ -164,43 +164,29 @@
 
 }
 @media (min-width:100px) and (max-width: 450px) {
-  .the-ultimate-dj {
-    font-size: var(--font-size-14xl);
-    margin-left: 230%;
-    margin-top: -30%;
-    width: 100%;
+ .the-ultimate-dj {
+    font-size: var(--font-size-25xl);
   }
-
-  .search-venues {
-    font-size: var(--font-size-lgi);
-  }
-
-  .rectangle-parent6 {
-    width: 200px;
-    height: 80px;
   
-    left: 50%;
+  .rectangle-parent6 {
+    width: 25%;
+    left: 63%;
     top: 100px;
+    padding-inline: center;
   }
 
   .rectangle-parent7 {
-    width: 100%;
-    left: 220%;
-    height: auto;
-    top: 120px;
+    width: 70%;
+    left: 10%;
+    top: 180px;
   }
   .text {
-    width: 100%;
+    width:100%;
     height: 100%;
     font-size: larger;
     color: white;
     border-radius: 10px;
     background-color: #09173c;
-  }
-  .search-bar-background
-  {
-    height: 500px;
-    width: 500px;
   }
   .dario-dd-k8tnrcwc-unsplash-cop-container
   {
@@ -218,13 +204,14 @@
   
   .rectangle-parent6 {
     width: 25%;
-    left: 55%;
+    left: 63%;
     top: 100px;
+    padding-inline: center;
   }
 
   .rectangle-parent7 {
     width: 70%;
-    left: 17%;
+    left: 10%;
     top: 180px;
   }
   .text {
@@ -269,11 +256,11 @@
 
 
 }
-@media (min-width:1357px) and (max-width:2587px) {
+@media (min-width:1357px) and (max-width:5000px) {
 
   .rectangle-parent6
   {
-    margin-left: 0%;
+    margin-left: -20%;
   }  
   .search-bar-background
   {

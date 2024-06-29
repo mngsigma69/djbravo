@@ -138,16 +138,40 @@
   {
      top:70%;
    }
+   .union-icon
+   {
+     display: none;
+   }
+   .web-apps-child
+   {
+     display: none;
+   }
 }
 @media screen and (max-width: 750px) {
   .web-apps {
     grid-template-columns: minmax(247px, 1fr);
+  }
+  .union-icon
+  {
+    display: none;
+  }
+  .web-apps-child
+  {
+    display: none;
   }
 }
 @media screen and (max-width: 450px) {
   .web-apps-wrapper {
     padding-bottom: var(--padding-55xl);
     box-sizing: border-box;
+  }
+  .union-icon
+  {
+    display: none;
+  }
+  .web-apps-child
+  {
+    display: none;
   }
 }
 @media (min-width:1100px) and (max-width: 1350px)
@@ -156,4 +180,28 @@
    {
       top:70%;
     }
+    .union-icon
+    {
+      display: none;
+    }
+    .web-apps-child
+    {
+      display: none;
+    }
+}
+@media (min-width:1252px) and (max-width: 1404px)
+{
+  .mask-group-icon4{
+    top: 00px;
+    height: 300px;
+    width: 300px;
+  }
+  .union-icon
+  {
+    display: none;
+  }
+  .web-apps-child
+  {
+    display: none;
+  }
 }

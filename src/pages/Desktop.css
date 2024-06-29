@@ -18,28 +18,7 @@
  
 
 }
-.about-us-use11 {
 
-  color: rgb(255, 255, 255);
-  text-decoration: none;
- 
-  margin-left: 25px; 
-
-}
-.about-us-use12 {
-
-  color: rgb(205, 205, 205);
-  text-decoration: none;
- 
-
-}
-.about-us-use13 {
-
-  color: rgb(205, 205, 205);
-  text-decoration: none;
- 
-
-}
 .about-us-use1 {
 
   color: rgb(255, 255, 255);
@@ -533,7 +512,7 @@
 
 .about-us-use11
 {
-  margin-left: 25px;
+  padding-left: 300px;
   text-decoration: none;
   color: white;
 }
@@ -549,9 +528,63 @@
   text-decoration: none;
   color: white;
 }
-
-
-
+.about-us-use1
+{
+  padding-left: 0px;
+  text-decoration: none;
+  color: white;
+}
+.about-us-use2
+{
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+}
+.about-us-use3
+{
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+}
+@media (min-width: 1275px) and (max-width:5000px)
+{
+  .about-us-use11
+{
+  padding-left: 200px;
+  text-decoration: none;
+  color: white;
+}
+.about-us-use12
+{
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+}
+.about-us-use13
+{
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+}
+.about-us-use1
+{
+  padding-left: 0px;
+  text-decoration: none;
+  color: white;
+}
+.about-us-use2
+{
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+}
+.about-us-use3
+{
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+}
+}
 
 
 
@@ -865,6 +898,46 @@
 }
 
 /* Styles for desktops */
-@media (min-width: 1025px) {
+@media (min-width: 1365px) and (max-width:5000px) {
   /* Desktop specific styles */
+
+  .about-us-use11
+  {
+    padding-left: 300px;
+    text-decoration: none;
+    color: white;
+  }
+  .about-us-use12
+  {
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+  }
+  .about-us-use13
+  {
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+  }
+  .about-us-use1
+  {
+    padding-left: 0px;
+    text-decoration: none;
+    color: white;
+  }
+  .about-us-use2
+  {
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+  }
+  .about-us-use3
+  {
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+  }
+
 }
+
+
