@@ -8,6 +8,9 @@
   height: 100%;
   display: none;
 }
+.frame-inner1 {
+  
+}
 .iconamoonsearch {
   position: absolute;
   top: 14px;
@@ -260,6 +263,14 @@
   .frame-group,
   .paragraph-container {
     gap: var(--gap-3xl);
+  }
+  .mask-group-icon{
+    position: absolute;
+    left:5%;
+    margin-top:50px ;
+  }
+  .mask-group-icon1{
+    margin-top:80px ;
   }
 }
 @media screen and (max-width: 450px) {

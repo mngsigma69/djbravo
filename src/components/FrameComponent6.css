@@ -68,3 +68,28 @@
   align-self: stretch;
   flex-direction: row;
 }
+@media screen and (max-width: 750px) {
+   .about-header{
+  width: 100%;
+  position: absolute;
+  left: 0px;
+   }
+   .about-header-child
+   {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top:-30px ;
+   }
+   
+   .app-name-icon,
+.djfi-icon-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 20%;
+  z-index: 4;
+  
+}
+}

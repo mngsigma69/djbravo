@@ -1,3 +1,4 @@
+
 .mask-group-icon13 {
   height: 59px;
   width: 59px;
@@ -271,9 +272,23 @@
     padding-bottom: var(--padding-51xl);
     box-sizing: border-box;
   }
+  .mask-group-icon22
+  {
+    position:absolute ;
+    left: 7%;
+  }
+  .mask-group-icon23
+  {
+    position:absolute ;
+    left: 50%;
+  }
 }
 @media screen and (max-width: 450px) {
   .gallery1 {
     font-size: var(--font-size-lgi);
+  }
+  .testimonial-carousel4
+  {
+    float: left ;
   }
 }

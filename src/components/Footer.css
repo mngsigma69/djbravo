@@ -6,6 +6,60 @@
   display: none;
   max-width: 100%;
 }
+.nameinput
+{
+  background-color: rgb(68, 79, 109);
+  border-radius: 5px;
+  color: white;
+  width: 100%;
+  font-size: medium;
+  border:none;
+  outline: none;
+  height: 28px;
+  
+}
+input.nameinput::placeholder {
+  color: #9d9c9c; /* Change the color of the placeholder text */
+  font-size: 12px; /* Change the font size of the placeholder text */
+  font-family: Arial, sans-serif; /* Change the font family of the placeholder text */
+  font-weight: 100px; /* Change the font weight of the placeholder text */
+   /* Change the font style of the placeholder text */
+  opacity: 1; /* Set the opacity of the placeholder text */
+}
+input.name1::placeholder {
+  color: #9d9c9c; /* Change the color of the placeholder text */
+  font-size: 12px; /* Change the font size of the placeholder text */
+  font-family: Arial, sans-serif; /* Change the font family of the placeholder text */
+  font-weight: 100px; /* Change the font weight of the placeholder text */
+   /* Change the font style of the placeholder text */
+  opacity: 1; /* Set the opacity of the placeholder text */
+}
+
+
+.name
+{
+
+  border-radius: 5px;
+  color: white;
+  width: 100%;
+  font-size: small;
+}
+.name1
+{
+  background-color: rgb(68, 79, 109);
+  border-radius: 5px;
+  color: white;
+  width: 100%;
+  height: 100px;
+  font-size: medium;
+  border: none;
+  outline: none;
+}
+.sign-up-as31
+{
+  text-decoration: none;
+  color: white;
+}
 .djfi-logo-main-copy-2 {
   height: 59px;
   width: 158px;
@@ -266,15 +320,7 @@
   justify-content: flex-start;
   padding: 0 var(--padding-6xs);
 }
-.name-input-box-child {
-  height: 26px;
-  width: 219px;
-  position: relative;
-  backdrop-filter: blur(80px);
-  border-radius: var(--br-8xs);
-  background-color: var(--color-gray-1800);
-  display: none;
-}
+
 .enter-your-name {
   position: relative;
   line-height: 15px;

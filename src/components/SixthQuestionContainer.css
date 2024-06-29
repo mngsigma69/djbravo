@@ -234,6 +234,16 @@
   .seventh-question-container {
     flex-wrap: wrap;
   }
+  .eparrow-up-icon7
+  {
+    position: absolute;
+    left: 410px;
+  }
+  .eparrow-up-icon11
+  {
+    position: absolute;
+    left: 410px;
+  }
 }
 @media screen and (max-width: 450px) {
   .sixth-question-row1,
