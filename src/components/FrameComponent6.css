@@ -68,23 +68,144 @@
   align-self: stretch;
   flex-direction: row;
 }
-@media screen and (max-width: 750px) {
-   .about-header{
-  width: 100%;
-  position: absolute;
-  left: 0px;
-   }
-   .about-header-child
-   {
-    width: 100%;
-    position: absolute;
-    left: 0px;
-    top:-30px ;
-   }
-   
-   .app-name-icon,
-.djfi-icon-1 {
-display: none;
-  
+
+/* @media screen and (max-width:751px)
+{
+  .app-name
+  {
+     margin-left: 580px;
+     height: 100px;
+     width: 200px;
+     margin-top: 10px;
+  }
+  .djfi-icon-1
+  {
+    height: 80px;
+    margin-top: -8px;
+    margin-left: -10px;
+  }
+} */
+
+@media (min-width:751px) and (max-width: 939px)
+{
+  .app-name
+  {
+     margin-left: 300px;
+  }
 }
+@media (min-width:939px) and (max-width: 1348px)
+{
+  .app-name
+  {
+     margin-left: 200px;
+  }
+}
+@media (min-width:1150px) and (max-width: 1348px)
+{
+  .app-name
+  {
+     margin-left: 150px;
+  }
+}
+@media (min-width:265px) and (max-width:400px)
+{
+  .app-name
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+    height: 100px;
+    
+  }
+  .djfi-icon-1
+  {
+    height: 80px;
+  }
+
+}
+@media (min-width:401px) and (max-width:488px)
+{
+  .app-name
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    height: 100px;
+    
+  }
+  .djfi-icon-1
+  {
+    height: 80px;
+  }
+
+}
+@media (min-width:488px) and (max-width:600px)
+{
+  .app-name
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+    height: 100px;
+    
+  }
+  .djfi-icon-1
+  {
+    height: 80px;
+  }
+
+}
+@media (min-width:600px) and (max-width:700px)
+{
+  .app-name
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    height: 100px;
+    
+  }
+  .djfi-icon-1
+  {
+    height: 80px;
+  }
+
+}
+@media (min-width:700px) and (max-width:750px)
+{
+  .app-name
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+    height: 100px;
+    
+  }
+  .djfi-icon-1
+  {
+    height: 80px;
+  }
+
+}
+@media (min-width:751px) and (max-width:850px)
+{
+  .app-name
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+    height: 100px;
+    
+  }
+  .djfi-icon-1
+  {
+    height: 80px;
+  }
+
 }

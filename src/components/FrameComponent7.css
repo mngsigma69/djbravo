@@ -319,6 +319,7 @@
   .rectangle-parent {
     padding: var(--padding-xl);
     margin-left: 0px;
+    margin-top:-90px;
   }
 
   .social-media-parent,
