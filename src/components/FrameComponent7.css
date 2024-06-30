@@ -62,9 +62,11 @@
 .vector-icon {
   width: 8px;
   height: 8px;
+  
 }
 
 .vector-wrapper {
+  
   padding: var(--padding-11xs) 0 0;
 }
 
@@ -100,8 +102,8 @@
   white-space: nowrap;
   color: rgb(205, 205, 205);
   text-decoration: none;
-  font-size: 12px; /* Adjust font size for Login / Register */
-  margin-left: var(--gap-xl); /* Add margin here */
+  font-size: 12px; 
+  margin-left: var(--gap-xl);
 }
 
 .f-icon {
@@ -151,7 +153,7 @@
   position: relative;
   width: 100%;
 }
-
+/* 
 @media screen and (max-width: 1275px) {
   .rectangle-parent {
     flex-wrap: wrap;
@@ -175,23 +177,71 @@
   }
 
   .hero-content {
-    width: 100%;
-    padding: var(--padding-12xs);
+    margin-left: 0px;
+    
   }
   
   .frame-parent {
-    flex-direction: column; /* Adjust frame-parent to column layout */
-    align-items: center; /* Center align items */
-    gap: var(--gap-5xs); /* Add gap between items */
+    flex-direction: column; 
+    align-items: center;
+    gap: var(--gap-5xs); 
   }
 
   .div {
-    text-align: center; /* Center align phone number */
+    text-align: center;
+     
   }
 
   .login-register {
-    margin-left: 0; /* Remove margin for Login / Register */
+    margin-left: 58px;
+    padding-top: 10px; 
   }
+
+
+
+
+  .social-media-parent,
+  .auth-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--gap-47xl);
+  }
+
+  .rectangle-parent {
+    padding: var(--padding-xl);
+  
+  }
+  .hero-content
+  {
+    margin-left: 0px;
+  }
+   
+.social-media
+{
+  margin-top:0px;
+  
+  margin-left: -200px;
+
+}
+.logo-pair-wrapper
+{
+  margin-top:-50px;
+  margin-left: -200px;
+}
+.frame-parent
+{
+  margin-top:-50px;
+  margin-left: -240px;
+}
+.login-register
+{
+  margin-top:10px;
+  margin-left: -0px;
+}
+.whatsapp-support1{
+  margin-left: -0%;
+}
+
 }
 
 @media screen and (max-width: 450px) {
@@ -204,5 +254,171 @@
 
   .rectangle-parent {
     padding: var(--padding-xl);
+      
+  }
+  
+   
+.social-media
+{
+  margin-top:0px;
+  
+  margin-left: -200px;
+
+}
+.logo-pair-wrapper
+{
+  margin-top:-50px;
+  margin-left: -200px;
+}
+.frame-parent
+{
+  margin-top:-50px;
+  margin-left: -240px;
+}
+.login-register
+{
+  margin-top:10px;
+  margin-left: -0px;
+}
+
+} */
+@media (min-width: 751px) and (max-width: 1275px) {
+  .rectangle-parent {
+    flex-wrap: wrap;
+    padding: var(--padding-2xl);
+  }
+  .frame-wrapper
+  {
+    margin-right: 100px;
+  }
+
+}
+   
+@media screen and (max-width: 750px) 
+{  
+
+
+.auth-buttons
+{
+  margin-top: 100px;
+  margin-left: 0px;
+}
+.login-register
+{
+  margin-left: 0px;
+}
+.social-icons
+{
+  margin-left: 0px;
+}
+  .hero-content
+  {
+    margin-top: 00px;
+    margin-left: 0;
+  }
+  .rectangle-parent {
+    padding: var(--padding-xl);
+    margin-left: 0px;
+  }
+
+  .social-media-parent,
+  .auth-buttons {
+    flex-direction: column;
+    align-items: center;
   }
 }
+
+
+
+/* @media (min-width:451px) and (max-width: 750px) {
+  .rectangle-parent {
+    padding: var(--padding-xl);
+  }
+
+  .social-media-parent,
+  .auth-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .hero-content {
+    margin-left: 0px;
+    
+  }
+  
+  .frame-parent {
+    flex-direction: column; 
+    align-items: center;
+    gap: var(--gap-5xs); 
+  }
+
+  .div {
+    text-align: center;
+     
+  }
+
+  .login-register {
+    
+    padding-top: 140px; 
+    
+  }
+  .social-icons
+  {
+    margin-top: -50px;
+    margin-left: -850px;
+  }
+.login-register,.social-icons
+{
+
+}
+
+
+
+  .social-media-parent,
+  .auth-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--gap-47xl);
+  }
+
+  .rectangle-parent {
+    padding: var(--padding-xl);
+  
+  }
+  .hero-content
+  {
+    margin-left: 0px;
+  }
+   
+.social-media
+{
+  margin-top:0px;
+  
+  margin-left: -200px;
+
+}
+.logo-pair-wrapper
+{
+  margin-top:-50px;
+  margin-left: -200px;
+}
+.frame-parent
+{
+  margin-top:-50px;
+  margin-left: -240px;
+}
+.login-register
+{
+  margin-top:0px;
+  margin-left: -270px;
+  
+}
+.whatsapp-support1{
+  margin-left: -0%;
+}
+
+} */

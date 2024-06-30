@@ -550,7 +550,7 @@
 {
   .about-us-use11
 {
-  padding-left: 200px;
+  padding-left: 300px;
   text-decoration: none;
   color: white;
 }
@@ -686,6 +686,10 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
+  .about-us-use11
+  {
+    margin-left: 23px;
+  }
 
   .about-us-use1:hover,
   .web-app-faq1:hover {
@@ -776,6 +780,10 @@
     color: #fcfcfc; /* Change link color */
     text-decoration: none;
     transition: background-color 0.3s ease;
+  }
+  .about-us-use11
+  {
+    margin-left: 23px;
   }
 
   .about-us-use1:hover,
@@ -887,7 +895,10 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-
+  .about-us-use11
+  {
+    margin-left: 23px;
+  }
   .about-us-use1:hover,
   .web-app-faq1:hover {
     background-color: #e9ecef; /* Change hover background color */
@@ -903,7 +914,7 @@
 
   .about-us-use11
   {
-    padding-left: 300px;
+    padding-left: 420px;
     text-decoration: none;
     color: white;
   }

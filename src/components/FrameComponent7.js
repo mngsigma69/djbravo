@@ -7,6 +7,27 @@ const FrameComponent7 = ({ className = "" }) => {
       <div className="frame-item" />
       <div className="hero-content">
         <div className="social-media-parent">
+        <div className="auth-buttons">
+        <div className="login-register">
+          <a href="a.html" className="login-register">Login / Register</a>
+        </div>
+        <div className="social-icons">
+          <a href="a.html">
+            <img className="f-icon" alt="" src="/f.svg" />
+          </a>
+          <div className="twitter-parent">
+            <a href="a.html">
+              <img className="twitter-icon" alt="" src="/twitter.svg" />
+            </a>
+          </div>
+          <a href="a.html">
+            <img className="linked-in-icon" alt="" src="/linked-in.svg" />
+          </a>
+          <a href="a.html">
+            <img className="instagram-icon" alt="" src="/instagram.svg" />
+          </a>
+        </div>
+      </div>
           <div className="social-media">
             <img className="whatsapp-icon" alt="" src="/whatsapp.svg" />
             <div className="whatsapp-support">
@@ -37,27 +58,7 @@ const FrameComponent7 = ({ className = "" }) => {
           </div>
         </div>
       </div>
-      <div className="auth-buttons">
-        <div className="login-register">
-          <a href="a.html" className="login-register">Login / Register</a>
-        </div>
-        <div className="social-icons">
-          <a href="a.html">
-            <img className="f-icon" alt="" src="/f.svg" />
-          </a>
-          <div className="twitter-parent">
-            <a href="a.html">
-              <img className="twitter-icon" alt="" src="/twitter.svg" />
-            </a>
-          </div>
-          <a href="a.html">
-            <img className="linked-in-icon" alt="" src="/linked-in.svg" />
-          </a>
-          <a href="a.html">
-            <img className="instagram-icon" alt="" src="/instagram.svg" />
-          </a>
-        </div>
-      </div>
+      
     </div>
   );
 };
